@@ -53,12 +53,12 @@ main{
                 display:flex;
                 flex-direction: column;
                 justify-content: center;
-                padding:5.5rem 1.3rem;
+                padding:3rem 1.3rem;
                 gap:3.5rem;
                 .text{
                     text-align: center;
                     h1{
-                        font-size: 3.3rem;
+                        font-size: 3rem;
                         font-weight: 600;
                         line-height: 3.5rem;
                     }
@@ -74,12 +74,12 @@ main{
             }
             h2{
                 text-align: center;
-                font-size: 2.5rem;
+                font-size: 2.1rem;
                 font-weight: 400;
                 width: 100%;
-                padding:4rem 1.5rem;
+                padding:4rem 1.6rem;
                 line-height: 2.7rem;
-                padding-bottom: 8rem;
+                // padding-bottom: 8rem;
             }
         }
     }
@@ -102,12 +102,13 @@ main{
                     justify-content: center;
                     align-items: center;
                     width:100%;
-                    padding:15rem;
+                    padding-top:8rem;
+                    padding-left: 15rem;
+                    padding-right:13rem;
                     .media{
                         width:50%;
                         img{
                             width:100%;
-
                         }
                     }
                     .text{
@@ -119,6 +120,12 @@ main{
                             text-align: left;
                         }
                     }
+                }
+                h2{
+                    width:100%;
+                    padding:8rem 20rem;
+                    line-height: 3.5rem;
+                    font-size: 3rem;
                 }
             }
         }
