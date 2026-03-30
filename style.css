@@ -10,9 +10,19 @@ html, body {
   height: 100%;
 }
 
+section, header {
+  max-width: 2000px;
+}
+
+main {
+  padding-top: 8rem;
+}
 main header {
   width: 100%;
   position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 main header .head {
   width: 100%;
@@ -53,11 +63,8 @@ main .hero .container .mantle .text {
 }
 main .hero .container .mantle .text h1 {
   font-size: 3.3rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 3.5rem;
-}
-main .hero .container .mantle .media {
-  margin-top: 8.5rem;
 }
 main .hero .container .mantle .media img {
   width: 100%;
@@ -70,4 +77,36 @@ main .hero .container h2 {
   padding: 4rem 1.5rem;
   line-height: 2.7rem;
   padding-bottom: 8rem;
+}
+
+@media (min-width: 1024px) {
+  main header {
+    width: 100%;
+  }
+  main header .nav {
+    padding: 2rem 4rem;
+  }
+  main .hero .container .mantle {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15rem;
+  }
+  main .hero .container .mantle .media {
+    width: 50%;
+  }
+  main .hero .container .mantle .media img {
+    width: 100%;
+  }
+  main .hero .container .mantle .text {
+    width: 50%;
+  }
+  main .hero .container .mantle .text h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+    font-weight: 600;
+    text-align: left;
+  }
 }/*# sourceMappingURL=style.css.map */
