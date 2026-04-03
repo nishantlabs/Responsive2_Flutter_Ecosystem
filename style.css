@@ -27,7 +27,8 @@ main header {
 main header .head {
   width: 100%;
   padding: 1rem;
-  background-color: rgb(22, 86, 197);
+  background-image: linear-gradient(to right, rgb(31, 110, 250), rgb(31, 110, 250), rgb(31, 110, 250), purple);
+  border-bottom: 2px solid black;
   color: white;
   font-size: 1.1rem;
   font-weight: 600;
@@ -40,6 +41,9 @@ main header .nav {
   justify-content: space-between;
   align-items: center;
   background-color: white;
+}
+main header .nav .nav_links {
+  display: none;
 }
 main header .nav h2 {
   font-weight: 300;
@@ -84,6 +88,35 @@ main .hero .container h2 {
   }
   main header .nav {
     padding: 2rem 4rem;
+  }
+  main header .nav .nav_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+  }
+  main header .nav .nav_links a {
+    font-size: 1.1rem;
+    color: rgb(91, 90, 90);
+    text-decoration: none;
+    font-weight: 700;
+  }
+  main header .nav .nav_links #eco_blue {
+    color: royalblue;
+  }
+  main header .nav .nav_links button {
+    font-size: 1.1rem;
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: royalblue;
+    padding: 0.8rem 2.7rem;
+    border-radius: 2rem;
+    font-weight: 600;
+  }
+  main header .nav .icon {
+    display: none;
   }
   main .hero .container .mantle {
     display: flex;
